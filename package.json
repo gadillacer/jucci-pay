@@ -1,0 +1,32 @@
+{
+  "name": "granular-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@mui/material": "^5.11.15",
+    "@web3-react/core": "^6.1.9",
+    "alchemy-sdk": "^2.0.3",
+    "axios": "^1.3.4",
+    "ethers": "^5.7.0",
+    "keccak256": "^1.0.6",
+    "merkletreejs": "^0.2.32",
+    "next": "12.2.5",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "styled-components": "^5.3.5",
+    "wagmi": "^0.6.4",
+    "web3": "^1.9.0"
+  },
+  "devDependencies": {
+    "eslint": "8.22.0",
+    "eslint-config-next": "12.2.5"
+  }
+}
