@@ -12,7 +12,7 @@ const ProjectPage = ({ project }) => {
 
 export async function getServerSideProps(context) {
   const { id } = context.params;
-  const { data } = await axios.get(`http://localhost:3001/api/projects/${id}`);
+  const { data } = await axios.get(`${process.env.NEXT_PUBLIC_API_BASE_URL}/api/projects/${id}`);
   return {
     props: {
       project: data,

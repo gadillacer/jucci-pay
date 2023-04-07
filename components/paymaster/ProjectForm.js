@@ -22,7 +22,7 @@ const ProjectForm = ({ onSubmit }) => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     const encryptedApiKey = "/* Encrypt the API key */";
-    await axios.post('http://localhost:3001/api/projects', { projectName, serviceProvider, apiKey });
+    await axios.post(`${process.env.NEXT_PUBLIC_API_BASE_URL}/api/projects`, { projectName, serviceProvider, apiKey });
     setProjectName('');
     setServiceProvider('');
     setApiKey('');

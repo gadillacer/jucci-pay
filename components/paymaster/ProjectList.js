@@ -21,7 +21,7 @@ const ProjectList = () => {
 
     useEffect(() => {
         const fetchData = async () => {
-            const { data } = await axios.get('http://localhost:3001/api/projects');
+            const { data } = await axios.get(`${process.env.NEXT_PUBLIC_API_BASE_URL}/api/projects`);
             setProjects(data);
         };
         fetchData();
