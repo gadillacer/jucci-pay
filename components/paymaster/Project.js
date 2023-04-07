@@ -41,7 +41,7 @@ const Project = ({ project }) => {
 
   const handleTransfer = async (amount, signature, userAddress) => {
     try {
-      const { data } = await axios.post(`http://localhost:3001/api/projects/${project._id}/deposit`, { amount, signature, userAddress });
+      const { data } = await axios.post(`${process.env.NEXT_PUBLIC_API_BASE_URL}/api/projects/${project._id}/deposit`, { amount, signature, userAddress });
       alert(data.message);
     } catch (error) {
       alert('Error transferring funds');
