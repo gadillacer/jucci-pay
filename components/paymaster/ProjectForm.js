@@ -60,6 +60,7 @@ const ProjectForm = ({ onSubmit }) => {
                   <MenuItem value="Biconomy">Biconomy</MenuItem>
                   <MenuItem value="ZeroDev" disabled>ZeroDev</MenuItem>
                   <MenuItem value="StackUp" disabled>StackUp</MenuItem>
+                  <MenuItem value="Custom" disabled>Your Custom Paymaster</MenuItem>
                 </Select>
               </FormControl>
             </Grid>

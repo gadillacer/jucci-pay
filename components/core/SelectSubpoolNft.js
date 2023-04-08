@@ -4,15 +4,11 @@ import { useNfts } from "../../hooks/useNfts";
 import { useSubpools } from "../../hooks/useSubpools";
 import { generateMerkleProof } from "../../utils/generateMerkleProof";
 
-import baycRankings from "../../rankings/bayc.json";
-import moonbirdRankings from "../../rankings/moonbirds.json";
-import cryptopunkRankings from "../../rankings/cryptopunks.json";
+import juccimonkeyRankings from "../../rankings/juccimonkeys.json";
 import { useEffect } from "react";
 
 const addressToRankings = {
-  ["0xE47463A0B8Fd39286D7a72cA8E334795779e2f77"]: baycRankings,
-  ["0x53c5469859588991cea2fb2b56748c09f4339e07"]: moonbirdRankings,
-  ["0xffb858483895f440b8725ba805c4dbe8676662ea"]: cryptopunkRankings,
+  ["0x2cf7C053aAA8564c7B5528DF2EC6B08473ef6902"]: juccimonkeyRankings
 };
 
 export const SelectSubpoolNft = ({

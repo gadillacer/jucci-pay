@@ -3,7 +3,7 @@ import axios from 'axios';
 // import Web3Auth from 'web3auth';
 import { ethers } from 'ethers';
 import { useAccount, useSigner } from "wagmi";
-import { ListItemText, TextField, Typography, Button, Box } from '@mui/material';
+import { ListItemText, TextField, Typography, Button } from '@mui/material';
 import { ConnectWalletButton } from "../core/ConnectWalletButton";
 import PoolContractABI from '../../contracts/depositGateway.abi.json'; // Import the compiled ABI of your Pool contract
 import { styled } from '@mui/system';
@@ -20,8 +20,6 @@ const Project = ({ project }) => {
   const [amount, setAmount] = useState('');
   const { data: signer } = useSigner();
   const { address } = useAccount();
-
-  const [showNFTPay, setShowNFTPay] = useState(false);
 
   const deposit = async () => {
     const poolContractAddress = "0xF8A694157F6C8ddA0b5243554bCA06e76Ec15D2A"
@@ -86,20 +84,9 @@ const Project = ({ project }) => {
           >
             Deposit
           </Button>
-
-          <Box sx={{ marginTop: 4 }}>
-            <Button
-              variant="contained"
-              color="primary"
-              onClick={() => setShowNFTPay(!showNFTPay)}
-            >
-              {showNFTPay ? "Hide NFT Pay" : "Pay with NFT (WIP)"}
-            </Button>
-          </Box>
-
-          {showNFTPay && <NFTPay />}
         </div>
       )}
+      <NFTPay />
 
     </div>
   );
