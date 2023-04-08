@@ -1,19 +1,21 @@
-You should run a sample dapp here: https://github.com/gadillacer/juicy-nft-demo
-
+You should run a sample dapp below: 
 Steps:
-1. git clone https://github.com/gadillacer/juicy-nft-demo
+1. Read instructions at https://github.com/gadillacer/juicy-nft-demo
+2. git clone https://github.com/gadillacer/juicy-nft-demo
 2. Yarn install
 3. Yarn start
 
-Then enjoy it with freemint NFTs(your gas was sponsored)
+Then enjoy it with freemint NFTs(your gas was sponsored. Maybe)
 
-***
-Okay, after that you can click the link in the site or go to https://juccipay.vercel.app to fund some gas with your web3 wallet.
+### Main site
+Okay, after that you can
+1/ click the link in the site or 
+2/ go to https://juccipay.vercel.app to fund some gas with your Web3 wallet.
 
-###
-You can sell your minted NFTs with our NFT AMM also.
+***NFT***
+You can sell your minted NFTs with our AMM also.
 
-***
-note: The site was deployed on Polygon Mumbai, and you need at least 1 Matic to fund gas
+### Note
+The site was deployed on Polygon Mumbai, and you need at least 1 Matic to fund gas
 
 Good luck.
