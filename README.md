@@ -1,5 +1,6 @@
-You should take a look at the demo dApp below:
-Steps:
+You should take a look at the demo dApp below
+
+# First Steps:
 
 1. Read the instructions at https://github.com/gadillacer/juicy-nft-demo
 
