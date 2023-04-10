@@ -66,7 +66,7 @@ const ProjectForm = ({ onSubmit }) => {
             </Grid>
             <Grid item xs={12}>
               <TextField
-                label={serviceProvider === 'Biconomy' ? 'Funding Key' : 'API Key?'}
+                label={serviceProvider === 'Biconomy' ? 'PaymasterId Key' : 'API Key'}
                 variant="outlined"
                 fullWidth
                 value={apiKey}

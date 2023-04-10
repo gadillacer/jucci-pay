@@ -62,8 +62,8 @@ const Project = ({ project }) => {
       <ListItemText>
         <PrimaryText>{project.projectName}</PrimaryText>
         <SecondaryText>{project.serviceProvider}</SecondaryText>
-        <SecondaryText>key: **** (aha, you can&apos;t see it)</SecondaryText>
-        <SecondaryText>GasTank Balance: {project.dappBalance}</SecondaryText>
+        <SecondaryText>apiKey: **** (aha, you can&apos;t see it)</SecondaryText>
+        <SecondaryText>Gas Balance: {(+ethers.utils.formatEther(project.dappBalance)).toFixed(3)}</SecondaryText>
       </ListItemText>
       {address && (
         <div>
@@ -71,7 +71,7 @@ const Project = ({ project }) => {
             type="text"
             value={amount}
             onChange={(e) => setAmount(e.target.value)}
-            placeholder="Enter deposit amount"
+            placeholder="Enter deposit amount (Min: 0.1 $MATIC)"
             variant="outlined"
             fullWidth
             sx={{ marginBottom: 2 }}
