@@ -15,7 +15,7 @@ After that, you can either:
 ### NFT
 You can also sell your minted NFTs using our experimental payment mechanism (AMM).
 
-### *Note*
+### *Note:
 The site is deployed on Polygon Mumbai only, and you need at least 0.1 Matic to fund gas.
 
 Good luck.
