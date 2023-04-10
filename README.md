@@ -1,19 +1,18 @@
 You should take a look at the demo dApp below
 
-# First Steps:
+## First Steps:
 
 1. Read the instructions at https://github.com/gadillacer/juicy-nft-demo
 
 2. Enjoy it with free mint NFTs (your gas should be sponsored)
 
-## Main site
+## Fund gas
 After that, you can either:
 
 1. Click the link on the site, or
 2. Go to https://juccipay.vercel.app to fund some gas with your Web3 wallet (e.g., MetaMask).
 
-### NFT
-You can also sell your minted NFTs using our experimental payment mechanism (AMM).
+You can also sell your minted **NFTs** using our experimental payment mechanism (AMM).
 
 ### *Note:
 The site is deployed on Polygon Mumbai only, and you need at least 0.1 Matic to fund gas.
