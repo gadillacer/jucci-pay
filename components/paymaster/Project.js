@@ -63,7 +63,7 @@ const Project = ({ project }) => {
         <PrimaryText>{project.projectName}</PrimaryText>
         <SecondaryText>{project.serviceProvider}</SecondaryText>
         <SecondaryText>apiKey: **** (aha, you can&apos;t see it)</SecondaryText>
-        <SecondaryText>Gas Balance: {(+ethers.utils.formatEther(project.dappBalance)).toFixed(3)}</SecondaryText>
+        <SecondaryText>Gas Balance: {(+ethers.utils.formatEther(project.dappBalance)).toFixed(4)}</SecondaryText>
       </ListItemText>
       {address && (
         <div>

@@ -17,7 +17,9 @@ You can also sell your minted **NFTs** using our experimental payment mechanism 
 ### *Note:
 The site is deployed on Polygon Mumbai only, and you need at least 0.1 Matic to fund gas.
 
-Good luck.
+We are considering adding a fiat on-ramp and enabling AA social login for this site. However, it is not available at the moment, as we are experimenting with the flows.
+
+Stay tuned! Thank you.
 
 ## For developers
 Currently, we only support Biconomy Account-Abstraction SDK. We plan to expand support for more SDKs in the near future.
