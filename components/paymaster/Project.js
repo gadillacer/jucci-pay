@@ -30,7 +30,7 @@ const Project = ({ project }) => {
     try {
         const tx = await poolContract.deposit({ from: address, value: parsedAmount });
         await tx.wait();
-        alert('Deposit successful');
+        alert('Gateway deposit completed! Wait for the signing...');
     } catch (error) {
         alert('Deposit failed');
         console.error(error);
